@@ -1,6 +1,8 @@
 import {mount} from 'marketing/MarketingApp';
 import React,{ useEffect,useRef } from 'react';
 
+console.log('aws');
+
 function MarketingApp() {
 
     const ref = useRef(null);
