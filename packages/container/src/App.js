@@ -17,6 +17,6 @@ export default () => {
   <Header/>
   <MarketingApp/>
   </StylesProvider>
-  </BrowserRouter>+4
+  </BrowserRouter>
   </> ;
 };
