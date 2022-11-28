@@ -132,3 +132,26 @@ Play
 Start
 60. Minor Changes in AWS CloudFront UI
 1min
+
+
+
+-----------------css production conflict fix for material css in js implementation---
+
+import { StylesProvider,createGenerateClassName } from '@material-ui/core/styles';
+
+const generateClassName = createGenerateClassName({
+    productionPrefix : 'co'
+  });
+
+  <StylesProvider generateClassName={generateClassName}>
+
+
+----------------------------------------------------------------------
+
+histroy Object :
+
+Memory/abstract histroy : Keep track of the current path in memory.
+
+
+browser histroy -> inside container. (host)
+memory histroy -> inside childrens (remotes)
